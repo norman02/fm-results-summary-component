@@ -6,11 +6,25 @@
 }
 html {
   font: inherit;
+  font-family: "Hanken Grotesk", sans-serif;
   vertical-align: baseline;
+  text-align: center;
 }
 
 body {
   line-height: 1;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
 }
 
 ol,
@@ -21,4 +35,25 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.score {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 72px;
+}
+.score-subtext {
+  opacity: 52%;
+}
+
+.heading-2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.heading-3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
 }
