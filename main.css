@@ -1,8 +1,10 @@
+/* ------- VARIABLES --------  */
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap");
 /* ------ RESET CSS -------  */
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body,
 h1,
@@ -51,7 +53,6 @@ figure {
 }
 
 ::selection {
-  
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -67,4 +68,37 @@ figure {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+/* ------- TYPOGRAPHY ---------  */
+
+a,
+p,
+.text {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.text-M {
+  font-size: 18px;
+}
+
+.text-L {
+  font-size: 24px;
+}
+
+.text-XL {
+  font-size: 56px;
+}
+
+.fw-XB {
+  font-weight: 800;
+}
+
+.fw-B {
+  font-weight: 700;
+}
+
+.fw-m {
+  font-weight: 500;
 }
